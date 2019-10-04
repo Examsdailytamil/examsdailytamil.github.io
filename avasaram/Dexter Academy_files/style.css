@@ -1,0 +1,1452 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: BIZGEEK
+    Template URI:
+    Description: 
+    Author:
+    Author
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ==============================
+    1.Common CSS
+    2.Header Section CSS
+    3.Slider Section CSS
+    4.Features Section CSS
+    5.Services Section CSS
+    6.Projects Section CSS
+    7.CTA Section CSS
+    8.Team Section CSS
+    9.Clients Reviews Section CSS
+    10.Pricing Section CSS
+    11.News Section CSS
+    12.Partners Section CSS
+    13.Form Section CSS
+    14.Footer Section CSS
+    15.Preloader CSS
+
+
+=======================================================================
+*/
+
+
+/*  ================================================
+        1.Common CSS
+    ================================================ */
+
+    @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay:after {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    content: "";
+    /* background: #141414; */
+    opacity: .75;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    z-index: -1;
+}
+
+.sp {
+    padding: 100px 0;
+}
+
+.spt {
+    padding: 100px 0px 0px 0px;
+}
+
+.spb {
+    padding: 0px 0px 100px 0px;
+}
+
+
+/*  ================================================
+        2.Header Section CSS
+    ================================================ */
+
+.logo {
+    display: block;
+    padding: 50px 0 42px;
+}
+
+header {
+    position: relative;
+    z-index: 9;
+}
+
+.main-menu .nav.navbar-nav li a:hover,
+.main-menu .nav.navbar-nav li a:focus {
+    background: rgba(0, 0, 0, 0);
+}
+
+.main-menu .nav.navbar-nav {
+    float: none;
+    text-align: right;
+}
+
+.main-menu .nav.navbar-nav li {
+    display: inline-block;
+    float: none;
+}
+
+.main-menu .nav.navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 65px 15px 55px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.is-sticky .main-menu {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .3);
+}
+
+.is-sticky .main-menu .nav.navbar-nav li a {
+    color: #0674fd;
+}
+
+
+.main-menu .nav.navbar-nav .nav-item a.active, .main-menu .nav.navbar-nav .nav-item a:hover, .main-menu .nav.navbar-nav .nav-item a:focus{
+    color: #0674fd;
+}
+.main-navigation {
+	position: absolute;
+	width: 100%;
+}
+/* Sticky Menu CSS */
+
+.is-sticky .main-navigation {
+    z-index: 999;
+    background: #fff;
+}
+
+.sticky-wrapper {
+    height: auto !important;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+}
+
+.header-area {
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.is-sticky .logo {
+    padding: 30px 0;
+}
+
+.is-sticky .nav.navbar-nav li a {
+    padding: 44px 15px;
+}
+
+.nav.navbar-nav li a {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.logo {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.main-menu.navbar.navbar-expand-lg{
+    padding: 0;
+}
+.navbar-toggler.navbar-toggler-right.collapsed .main-menu .nav.navbar-nav li{
+    display: block;
+}
+/*  ================================================
+        3.Slider Section CSS
+    ================================================ */
+
+.slider-area {
+    position: relative;
+    top: -145px;
+}
+
+.slider-area .item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 145px;
+}
+
+.slider-area .item p {
+    margin-bottom: 35px;
+    line-height: 30px;
+}
+
+.slider-area .item h2 {
+    color: #fffefe;
+    font-size: 61px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.slider-area .item h2>strong {
+    color: #0674fd;
+}
+
+.slider-area .item {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.slick-dots {
+    display: none;
+}
+
+.slider-area .slick-arrow {
+    display: none !important;
+}
+
+.slider-area .slick-dots {
+    display: block;
+}
+
+.slide-btn {
+    border: 1px solid #0674fd;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    padding: 16px 32px 14px;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.slide-btn.active {
+    background: #0674fd;
+}
+
+.slide-btn:hover {
+    color: #0674fd;
+}
+
+.slide-btn.active:hover {
+    color: #fff;
+}
+
+.slider-area .blocks-box,
+.slider-area .slick-slider {
+    margin: 0 0 -145px 0;
+    padding: 0!important;
+}
+
+.slider-area .slick-dots li button {
+    background: #fff;
+    border: medium none;
+    height: 15px;
+    position: relative;
+    text-indent: -1e+12px;
+    width: 15px;
+    cursor: pointer;
+}
+.slider-area .slick-dots li button:focus{
+    outline: none;
+}
+.slider-area .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots {
+    bottom: 60px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.slider-area .slick-dots li.slick-active button {
+    background: #0674fd;
+}
+
+.slick-slide {
+    float: left;
+    padding: 0;
+}
+
+.slider-area .item h2 {
+    -webkit-animation: fadeOutRight 1s both;
+    animation: fadeOutRight 1s both;
+}
+
+.slider-area .item.slick-active h2 {
+    -webkit-animation: fadeInDown 1s both 1s;
+    animation: fadeInDown 1s both 1s;
+}
+
+.slider-area .item.slick-active p {
+    -webkit-animation: fadeInLeft 1s both 1.5s;
+    animation: fadeInLeft 1s both 1.5s;
+}
+
+.slider-area .item.slick-active a.slide-btn {
+    -webkit-animation: fadeInUp 1.5s both 1.5s;
+    animation: fadeInUp 1.5s both 1.5s;
+}
+
+.slider-area {
+    background: #000;
+    margin-bottom: -145px;
+}
+
+.slider-area .slick-list,
+.slider-area .slick-track,
+.slider-area .item {
+    height: 100%;
+}
+
+.slider-area .slick-slider {
+    position: relative;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slider-area .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-area .slick-list:focus {
+    outline: none;
+}
+
+.slider-area .slick-list.dragging {
+    cursor: hand;
+}
+
+.slider-area .slick-slider .slick-track,
+.slider-area .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slider-area .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slider-area .slick-track:before,
+.slider-area .slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slider-area .slick-track:after {
+    clear: both;
+}
+
+.slider-area .slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slider-area .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slider-area .slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slider-area .slick-initialized .slick-slide {
+    display: block;
+}
+
+.slider-area .slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slider-area .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+}
+
+
+/*  ================================================
+        4.Features Section CSS
+    ================================================ */
+
+.section-title>h2 {
+    color: #000000;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 75px;
+}
+
+.section-title h2>strong {
+    color: #0674fd;
+}
+
+.sin-feature {
+    border: 1px solid #0674fd;
+    color: #666666;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 20px 25px 75px;
+    text-align: center;
+}
+
+.sin-feature .feat-icon i {
+    background: #0674fd none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 47px;
+    height: 88px;
+    line-height: 90px;
+    margin: 0 auto 24px;
+    padding: 0 0 0 2px;
+    text-align: center;
+    width: 88px;
+}
+
+.sin-feature>h4 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.view-btn {
+    background: #0674fd none repeat scroll 0 0;
+    bottom: -26px;
+    color: #fff;
+    display: inline-block;
+    left: 112px;
+    padding: 14px 30px 12px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.sin-feature:hover .feat-icon i,
+.sin-feature:hover .view-btn {
+    background: #000;
+}
+
+.view-btn,
+.sin-feature .feat-icon i {
+    -webkit-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.view-btn:hover {
+    color: #fff;
+}
+
+.services-area {
+    background: #f6f6f6;
+}
+
+
+/*  ================================================
+        5.Services Section CSS
+    ================================================ */
+
+.sin-service {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.services-area {
+    padding-bottom: 45px;
+}
+
+.service-icon {
+    background: #0674fd;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #0674fd;
+    color: #fff;
+    display: block;
+    font-size: 35px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 auto 27px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 75px;
+}
+
+.sin-service>h4 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.sin-service:hover .service-icon {
+    background: #000;
+    box-shadow: 0 0 0 8px #000;
+}
+
+
+/*  ================================================
+        6.Projects Section CSS
+    ================================================ */
+
+.projects-section {
+    padding-bottom: 40px;
+}
+
+.projects-wrap {
+    overflow: hidden;
+}
+
+.sin-project {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 307px;
+    margin: 0 35px 60px;
+    position: relative;
+    text-align: center;
+    width: 27%;
+}
+
+.project-hover {
+    background: #000 none repeat scroll 0 0;
+    border: 4px solid #0674fd;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 41px;
+    height: calc(100% - 44px);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 22px;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: calc(100% - 44px);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.sin-project:hover .project-hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.project-hover:hover {
+    color: #fff;
+}
+
+.projects-filter {
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.projects-filter li {
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 10px 16.5px;
+}
+
+.projects-filter>li.active {
+    color: #0674fd;
+}
+
+
+/*  ================================================
+        7.CTA Section CSS
+    ================================================ */
+
+.cta-section {
+    background-color: #0674fd;
+    background-image: url("img/uploads/pattern.png");
+    padding: 74px 0;
+}
+
+.cta-section h2 {
+    color: #fff;
+    float: left;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+    width: 80%;
+}
+
+.cta-btn {
+    background: #000 none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 45px;
+    position: relative;
+    top: 10px;
+}
+
+.cta-btn:hover {
+    color: #fff;
+}
+
+
+/*  ================================================
+        8.Team Section CSS
+    ================================================ */
+
+.sin-t-member {
+    border: 2px solid #0674fd;
+}
+
+.member-thumb {
+    display: block;
+}
+
+.member-thumb img {
+    max-width: 100%;
+}
+
+.member-bio:hover {
+    background: #000;
+}
+
+.member-bio:hover span {
+    color: #0674fd;
+}
+
+.member-bio {
+    background: #0674fd;
+    bottom: 0;
+    height: auto;
+    padding: 10px 0;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 88.5%;
+}
+
+.member-bio h4,
+.member-bio h4>a {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.member-bio>span {
+    color: #f3f3f3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.member-bio,
+.member-bio>span {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.sin-t-member:hover .member-bio {
+    bottom: 40px;
+}
+
+
+/*  ================================================
+        9.Clients Reviews Section CSS
+    ================================================ */
+
+.client-section {
+    background: #f6f6f6;
+}
+
+.sing-review {
+    border: 1px solid #0674fd;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 75px 18px 32px;
+    position: relative;
+    text-align: center;
+}
+
+.sing-review>h5,
+.sing-review>h5>a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.sing-review>p {
+    margin-bottom: 24px;
+}
+
+.client-thumb {
+    border-radius: 50%;
+    height: 78px;
+    left: 50%;
+    margin-left: -39px;
+    overflow: hidden;
+    position: absolute;
+    top: -45px;
+    width: 78px;
+    border: 1px solid #c9c9c9;
+}
+
+.client-thumb img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.clients-reviews-wrap .slick-list {
+    padding: 100px 0 0;
+}
+
+.sing-review.slick-slide {
+    margin: 0 10px;
+}
+
+.clients-reviews-wrap .slick-arrow.testi-nav {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 65px;
+    left: -75px;
+    line-height: 65px;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    width: 25px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.clients-reviews-wrap .slick-arrow.testi-nav.icofont-thin-right {
+    left: auto;
+    right: -75px;
+}
+
+.clients-reviews-wrap .slick-arrow.testi-nav:hover {
+    background: #0674fd;
+}
+
+
+/*  ================================================
+        10.Pricing Section CSS
+    ================================================ */
+
+.single-price-box {
+    background-color: #ededed;
+    background-image: url("img/uploads/pattern.png");
+    text-align: center;
+}
+
+.price-head>h4 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.price-head {
+    padding: 30px 0 26px;
+}
+
+.price {
+    background: #0674fd none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+    padding: 22px 0;
+}
+
+.price>h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.price>h4>span {
+    font-size: 14px;
+}
+
+.price-feature {
+    padding-top: 35px;
+}
+
+.price-feature>p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+
+.price,
+.price-btn {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.price-btn {
+    background: #fda100 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 41px;
+    margin-top: 9px;
+    padding: 16px 45px 13px;
+}
+
+.price-btn:hover {
+    color: #fff;
+}
+
+.single-price-box:hover .price {
+    background: #000 none repeat scroll 0 0;
+}
+
+.single-price-box:hover .price-btn {
+    background: #000 none repeat scroll 0 0;
+}
+
+
+/*  ================================================
+        11.News Section CSS
+    ================================================ */
+
+.news-thumb {
+    border: 4px solid #0674fd;
+    display: block;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+.news-thumb img {
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.news-thumb:hover img {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.news-thumb>img {
+    max-width: 100%;
+}
+
+.news-posted-meta>a {
+    color: #0674fd;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 44px;
+    padding-left: 24px;
+    position: relative;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.news-posted-meta>a:hover {
+    color: #000;
+}
+
+.news-posted-meta>a:after {
+    font-family: icofont;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.author:after {
+    content: "\ed6c";
+}
+
+.posted-date:after {
+    content: "\ed21";
+}
+
+.news-posted-meta {
+    margin-bottom: 20px;
+}
+
+.sin-news>h4 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.sin-news {
+    color: #666666;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.read-more-btn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 23px;
+    position: relative;
+}
+
+.read-more-btn,
+.read-more-btn:hover,
+.read-more-btn:focus,
+.read-more-btn:visited {
+    color: #000000;
+}
+
+.read-more-btn:after {
+    content: "\eb55";
+    font-family: icofont;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.read-more-btn:hover:after {
+    right: -5px;
+}
+
+
+/*  ================================================
+        12.Partners Section CSS
+    ================================================ */
+
+.partner-section {
+    background: #f6f6f6 none repeat scroll 0 0;
+}
+
+.partners-logo-wrap .slick-arrow {
+    display: none !important;
+}
+
+.sin-partner.slick-slide {
+    padding: 0 40px;
+}
+
+.sin-partner.slick-slide img {
+    max-width: 100%;
+}
+
+
+/*  ================================================
+        13.Form Section CSS
+    ================================================ */
+
+label.form-title {
+    color: #222222;
+    display: inline-block;
+    font-size: 36px;
+    margin-bottom: 36px;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #bbbbbb;
+    display: block;
+    margin-bottom: 19px;
+    padding: 12px;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #0674fd;
+}
+
+form.contact-form {
+    border: 2px solid #0674fd;
+    padding: 40px;
+}
+
+label.form-title:after {
+    background: #ed3928 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 77px;
+}
+
+.contact-form input[type="submit"] {
+    width: auto;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background: #0674fd;
+    border-color: #0674fd;
+    padding: 14px 35px 13px;
+    margin-top: 10px;
+}
+
+.form-area {
+    position: relative;
+    background: url(img/uploads/pattern-2.png) repeat scroll 0 0;
+}
+
+.contact-item {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #0674fd;
+    overflow: hidden;
+    padding: 27px;
+    position: absolute;
+    width: 300px;
+    z-index: 9;
+}
+
+.col-lg-4.rs-ptr {
+    padding-right: 0;
+}
+
+.col-lg-8.rs-ptl {
+    padding-left: 0;
+}
+
+.contact-item.top-item {
+    left: 100%;
+    top: 253px;
+}
+
+.contact-item.bottom-item {
+    bottom: 0;
+    left: 100%;
+}
+
+.c-item-icon {
+    border-right: 1px solid #0674fd;
+    color: #222222;
+    float: left;
+    font-size: 30px;
+    line-height: 64px;
+    margin-right: 20px;
+    padding-right: 12px;
+}
+
+.c-item-cont {
+    padding-left: 0;
+}
+
+.c-item-cont>a {
+    color: #666666;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+/*  ================================================
+        14.Footer Section CSS
+    ================================================ */
+
+.footer-section {
+    background: #000000;
+    color: #fff;
+}
+
+.foo-logo {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.foo-socials li {
+    display: inline-block;
+    padding: 0 29px;
+}
+
+.foo-socials li a {
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.foo-socials {
+    margin-bottom: 36px;
+}
+
+.foo-socials li a:hover {
+    color: #0674fd;
+}
+
+.cpt,
+.cpt>a {
+    color: #969696;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.cpt>a:hover {
+    color: #0674fd;
+}
+
+.scrollTop {
+    background: #0674fd;
+    bottom: 30px;
+    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    right: 50px;
+    text-align: center;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    width: 50px;
+}
+
+.scrollTop:hover {
+    color: #fff;
+    background: #000;
+}
+
+
+/*  ================================================
+        15.Preloader CSS
+    ================================================ */
+
+.windows8 {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin: auto;
+}
+
+.windows8 .wBall {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    animation: orbit 4.8425s infinite;
+    -o-animation: orbit 4.8425s infinite;
+    -ms-animation: orbit 4.8425s infinite;
+    -webkit-animation: orbit 4.8425s infinite;
+    -moz-animation: orbit 4.8425s infinite;
+}
+
+.windows8 .wBall .wInnerBall {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: rgb(255, 162, 0);
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+}
+
+.windows8 #wBall_1 {
+    animation-delay: 1.056s;
+    -o-animation-delay: 1.056s;
+    -ms-animation-delay: 1.056s;
+    -webkit-animation-delay: 1.056s;
+    -moz-animation-delay: 1.056s;
+}
+
+.windows8 #wBall_2 {
+    animation-delay: 0.203s;
+    -o-animation-delay: 0.203s;
+    -ms-animation-delay: 0.203s;
+    -webkit-animation-delay: 0.203s;
+    -moz-animation-delay: 0.203s;
+}
+
+.windows8 #wBall_3 {
+    animation-delay: 0.4265s;
+    -o-animation-delay: 0.4265s;
+    -ms-animation-delay: 0.4265s;
+    -webkit-animation-delay: 0.4265s;
+    -moz-animation-delay: 0.4265s;
+}
+
+.windows8 #wBall_4 {
+    animation-delay: 0.6295s;
+    -o-animation-delay: 0.6295s;
+    -ms-animation-delay: 0.6295s;
+    -webkit-animation-delay: 0.6295s;
+    -moz-animation-delay: 0.6295s;
+}
+
+.windows8 #wBall_5 {
+    animation-delay: 0.843s;
+    -o-animation-delay: 0.843s;
+    -ms-animation-delay: 0.843s;
+    -webkit-animation-delay: 0.843s;
+    -moz-animation-delay: 0.843s;
+}
+
+@keyframes orbit {
+    0% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        z-index: 99;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    7% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(300deg);
+        transform: rotate(300deg);
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        origin: 0%;
+    }
+    30% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(410deg);
+        transform: rotate(410deg);
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        origin: 7%;
+    }
+    39% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(645deg);
+        transform: rotate(645deg);
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        origin: 30%;
+    }
+    70% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(770deg);
+        transform: rotate(770deg);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        origin: 39%;
+    }
+    75% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(900deg);
+        transform: rotate(900deg);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        origin: 70%;
+    }
+    76% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -webkit-transform: rotate(900deg);
+        transform: rotate(900deg);
+    }
+    100% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -webkit-transform: rotate(900deg);
+        transform: rotate(900deg);
+    }
+}
+
+@-webkit-keyframes orbit {
+    0% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        z-index: 99;
+        -webkit-transform: rotate(180deg);
+        -webkit-animation-timing-function: ease-out;
+    }
+    7% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(300deg);
+        -webkit-animation-timing-function: linear;
+        -webkit-origin: 0%;
+    }
+    30% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(410deg);
+        -webkit-animation-timing-function: ease-in-out;
+        -webkit-origin: 7%;
+    }
+    39% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(645deg);
+        -webkit-animation-timing-function: linear;
+        -webkit-origin: 30%;
+    }
+    70% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(770deg);
+        -webkit-animation-timing-function: ease-out;
+        -webkit-origin: 39%;
+    }
+    75% {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: rotate(900deg);
+        -webkit-animation-timing-function: ease-out;
+        -webkit-origin: 70%;
+    }
+    76% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -webkit-transform: rotate(900deg);
+    }
+    100% {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -webkit-transform: rotate(900deg);
+    }
+}
+
+.preloader {
+    background: #fff none repeat scroll 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+
+#about1 img{
+    width: 100%;
+}
+
+#about1{
+    padding: 0;
+}
+
+#about1 .section-title{
+        margin-top: 100px;
+}
+
+.gmap-section img {
+    width: 100%;
+}
+
+.tabcontent .row {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}

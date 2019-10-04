@@ -1,3 +1,0 @@
-# inthapaa
-permalink: /index.html
-
