@@ -1374,6 +1374,22 @@ Vadapalani, Chennai</p>
         <i class="icofont icofont-arrow-up"></i>
     </a>
 
+    
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    var valai = JSON.stringify(myObj)
+    document.getElementById("demo").innerHTML = valai;
+
+  }
+};
+
+xmlhttp.open("GET", "https://fd8206d7-7c08-4e54-96d0-f2171fedac82-bluemix.cloudant.com/", true);
+xmlhttp.send();
+</script>
+
 
 
 
